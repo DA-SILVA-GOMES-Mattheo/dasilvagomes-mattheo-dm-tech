@@ -1,5 +1,3 @@
-//dasilvagomes-mattheo-dm-tech
-
 //Je définis la fonction plusGrand avec x y et z en valeur.
 function plusGrand(x, y, z) {
     //je définis grand comme étant 0
