@@ -1,10 +1,5 @@
-//dasilvagomes-mattheo-dm-tech-test
+//dasilvagomes-mattheo-dm-tech
 
-function reverseString(chaine) {
 
-    return chaine.split("").reverse().join("");
-    }
-    
-    var inversion = reverseString("Inverse");
 
-console.log(inversion);
+console.log(N);
