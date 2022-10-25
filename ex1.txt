@@ -1,11 +1,15 @@
 //création d'une fonction pour inverser une chaine de caractère
+
 function reverseString(chaine) {
 
-    //Je demande de retourner la chaine de caractère en séparant chaque caractère dans un tableau, puis je les inverse,
-    puis je les fais se joindre pour redonner une chaine de caractère mais inversée
+    //Je demande de retourner la chaine de caractère en séparant chaque caractère dans un tableau, puis je les inverse
+    //puis je les fais se joindre pour redonner une chaine de caractère mais inversée
+
     return chaine.split("").reverse().join("");
     }
+
     //Je définis la variable et le mot à inverser
+    
     var inversion = reverseString("Inverse");
 
     console.log(inversion);

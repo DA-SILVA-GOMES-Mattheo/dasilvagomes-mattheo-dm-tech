@@ -1,19 +1,30 @@
 //Je définis la fonction plusGrand avec x y et z en valeur.
+
 function plusGrand(x, y, z) {
+
     //je définis grand comme étant 0
+
     grand = 0;
+
     //si x est plus grand que y alors le plus grand sera x
+
     if (x > y) {
         grand = x;
+
     //sinon le plus grand sera y
+
     } else {
         grand = y;
     }
+
     //si z est plus grand que grand alors le plus grand sera z
+
     if (z > grand) {
         grand = z;
     }
+
     //je retourne la valeur la plus grande
+    
     return grand;
 }
 

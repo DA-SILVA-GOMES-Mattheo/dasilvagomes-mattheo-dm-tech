@@ -1,5 +1,3 @@
-//dasilvagomes-mattheo-dm-tech
-
 //Je créer un tableau avec des nombres aléatoires
 
 var array = [98, 658, 8, 17151, 15, 529, 0]
