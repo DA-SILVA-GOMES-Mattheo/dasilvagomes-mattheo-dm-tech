@@ -7,3 +7,5 @@ function reverseString(chaine) {
     }
     //Je définis la variable et le mot à inverser
     var inversion = reverseString("Inverse");
+
+    console.log(inversion);
