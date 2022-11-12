@@ -1,12 +1,15 @@
-//Je créer un tableau avec des nombres aléatoires
+function enOrdreCroissant(array){
 
-var array = [98, 658, 8, 17151, 15, 529, 0]
+  for(let x = 0; x < array.length; x++){
+      for(let y = x +  1; y < array.length; y++){
+          if(array[x] > array[y]){
 
-//Grace au sort(), tout est trié automatiquement dans le tableau
-//le probème était que sans la fonction, il lisait les nombres comme des chaines de caractères
-//donc si un nombre commencait par 9, il était forcément le plus grand nombre ex : 98>48148 car le 9 est plus grand
-//la fonction dans le sort() permet de régler ce problème
-
-array.sort(function(a, b){return a - b});
-
-console.log(array);
+              let temp =  array[x];
+              array[x] = array[y];
+              array[y] = temp;
+          }
+      }
+  }
+  return array;
+}
+console.log(enOrdreCroissant([1,50,18,28827,277]))
