@@ -1,15 +1,11 @@
-//création d'une fonction pour inverser une chaine de caractère
+function chaineReverse(lettre) {
 
-function reverseString(chaine) {
+  var chaine = "";
 
-    //Je demande de retourner la chaine de caractère en séparant chaque caractère dans un tableau, puis je les inverse
-    //puis je les fais se joindre pour redonner une chaine de caractère mais inversée
+  for (var x = lettre.length - 1; x >= 0; x--) {
 
-    return chaine.split("").reverse().join("");
-    }
-
-    //Je définis la variable et le mot à inverser
-    
-    var inversion = reverseString("Inverse");
-
-    console.log(inversion);
+      chaine += lettre[x];
+  }
+  return chaine;
+}
+console.log(chaineReverse('Test avec Espace'));

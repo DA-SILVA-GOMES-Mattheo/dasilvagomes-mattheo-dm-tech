@@ -1,14 +1,11 @@
-//dasilvagomes-mattheo-dm-tech
+function chaineReverse(lettre) {
 
-//Je créer un tableau avec des nombres aléatoires
+  var chaine = "";
 
-var array = [98, 658, 8, 17151, 15, 529, 0]
+  for (var x = lettre.length - 1; x >= 0; x--) {
 
-//Grace au sort(), tout est trié automatiquement dans le tableau
-//le probème était que sans la fonction, il lisait les nombres comme des chaines de caractères
-//donc si un nombre commencait par 9, il était forcément le plus grand nombre ex : 98>48148 car le 9 est plus grand
-//la fonction dans le sort() permet de régler ce problème
-
-array.sort(function(a, b){return a - b});
-
-console.log(array);
+      chaine += lettre[x];
+  }
+  return chaine;
+}
+console.log(chaineReverse('Test avec Espace'));
